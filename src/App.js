@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
+import GlobalStyle from './global/global';
+import Routes from './routes';
 
 function App() {
-  const [] = useState([]);
-
   return (
     <>
-      <ul>
-        <li>Luiza Labs</li>
-      </ul>
+      <Routes />
+      <GlobalStyle />
     </>
   );
 }
