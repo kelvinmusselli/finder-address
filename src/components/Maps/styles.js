@@ -1,3 +1,34 @@
 import styled from 'styled-components';
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
+
+export const DivSearched = styled.div`
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: #f7f7f7;
+  max-width: 100%;
+  width: 355px;
+  padding: 5px;
+`;
+
+export const AddressRequested = styled.text`
+  font-family: Roboto, -apple-system, sans-serif;
+`;
+
+export const DivMap = styled.div`
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 400px;
+  width: 600px;
+  padding: 5px;
+`;

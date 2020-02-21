@@ -35,20 +35,3 @@ export const InputSearch = styled.input`
 `;
 
 export const ButtonSearch = styled.button``;
-
-export const DivSearched = styled.div`
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  margin-top: 10px;
-  margin-left: 10px;
-  background: #f7f7f7;
-  max-width: 100%;
-  width: 355px;
-  padding: 5px;
-`;
-
-export const AddressRequested = styled.text`
-  font-family: Roboto, -apple-system, sans-serif;
-`;

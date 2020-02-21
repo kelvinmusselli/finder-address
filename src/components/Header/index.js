@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, AlignImageAndText, Image, Text } from './styles';
+import { Container, AlignImageAndText, Image, TextName } from './styles';
 import logo from '../../assets/images/magalu.jpg';
 
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
         <Image>
           <img src={logo} alt="magalu" />
         </Image>
-        <Text>Magalu Finder</Text>
+        <TextName>Magalu Finder</TextName>
       </AlignImageAndText>
     </Container>
   );

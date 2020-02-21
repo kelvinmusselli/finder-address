@@ -19,7 +19,7 @@ export const Image = styled.div`
   }
 `;
 
-export const Text = styled.text`
+export const TextName = styled.text`
   font-family: Roboto, -apple-system, sans-serif;
   font-size: 35px;
   color: #0086ff;
