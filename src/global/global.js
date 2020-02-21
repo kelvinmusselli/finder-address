@@ -13,7 +13,7 @@ export default createGlobalStyle`
 }
 
 body{
-  background:#7159c1 no-repeat center top;
+  background:#0086ff no-repeat center top;
   -webkit-font-smoothing:antialiased;
 }
 
@@ -22,9 +22,9 @@ body,input, button {
 }
 
 #root{
-  max-width:1020px;
+  width:100%;
   margin:0 auto;
-  padding: 0 20px 50px;
+
 }
 
 button{

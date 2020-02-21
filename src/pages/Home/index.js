@@ -1,17 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import { Container } from './styles';
+import Header from '../../components/Header/index';
+import Search from '../../components/Search/index';
+import Maps from '../../components/Maps/index';
 
 function Home() {
-  const [address, setAddress] = useState(['Rua sergio negri']);
-
   return (
     <Container>
-      <ul>
-        {address.map(a => (
-          <li>{a}</li>
-        ))}
-      </ul>
+      <Header />
+      <Search />
+      <Maps />
     </Container>
   );
 }
