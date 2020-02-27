@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Container, AlignImageAndText, Image, TextName } from './styles';
-import logo from '../../assets/images/magalu.jpg';
+import logo from '../../Assets/images/magalu.jpg';
 
 function Header() {
   return (

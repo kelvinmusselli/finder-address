@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './pages/Home';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import Home from './Pages/Home';
 // import Repository from './pages/Repository';/
 
 export default function Routes() {
@@ -8,6 +8,7 @@ export default function Routes() {
     <BrowserRouter>
       <Switch>
         <Route path="/" component={Home} />
+        <Redirect to="/" />
       </Switch>
     </BrowserRouter>
   );
