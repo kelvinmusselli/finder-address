@@ -1,4 +1,4 @@
-# Magulu Finder CEP
+# Magalu Finder CEP
 
 ## ‍ Rodar projeto local
 
