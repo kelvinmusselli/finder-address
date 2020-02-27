@@ -16,4 +16,4 @@ Npm scripts:
 
 ## ⚖️ License
 
-Este projeto contém licença MIT - Clique aqui para mais detalhes[LICENSE.md](LICENSE.md)
+Este projeto contém licença MIT 
