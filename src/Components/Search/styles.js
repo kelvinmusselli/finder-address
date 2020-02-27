@@ -12,16 +12,24 @@ export const DivAddres = styled.div`
   align-content: center;
   margin-top: 15px;
   margin-left: 10px;
+  margin-right: 10px;
   background-color: #fff;
   border-radius: 4px;
   height: 120px;
   padding: 5px;
   flex-direction: column;
-  width: 100%;
 `;
 export const DivToSearch = styled.div`
   margin-top: 20px;
   flex-direction: column;
+
+  input {
+    border-radius: 4px;
+    height: 25px;
+    width: 240px;
+    background: #fff;
+    font-family: Roboto, -apple-system, sans-serif;
+  }
 `;
 export const LabelAddress = styled.text`
   font-size: 18px;
@@ -29,9 +37,11 @@ export const LabelAddress = styled.text`
   font-family: Roboto, -apple-system, sans-serif;
 `;
 
-export const InputSearch = styled.input`
+export const ButtonSearch = styled.button`
+  width: 50px;
+  margin-left: 5px;
+  height: 25px;
+  border: none;
   border-radius: 4px;
-  height: 35px;
+  background: #0086ff;
 `;
-
-export const ButtonSearch = styled.button``;

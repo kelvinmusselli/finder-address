@@ -6,6 +6,8 @@ import Search from '../../Components/Search/index';
 import Maps from '../../Components/Maps/index';
 
 import { api, apiMap } from '../../Services/api';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Home() {
   const [cep, setCep] = useState('');
@@ -21,14 +23,32 @@ function Home() {
 
   const handleSubmitFind = async e => {
     if (!cep) {
-      alert(error);
+      toast('Favor digitar um CEP', {
+        position: 'bottom-right',
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
     } else {
       const dados = await api.get(`${cep}/json`);
       const mapRequest = await apiMap.get(
-        `https://maps.googleapis.com/maps/api/geocode/json?address=${cep}&key=AIzaSyBY6-aoDfJd3xqkiZiMonZWHEkYJ3xaXh4`
+        `geocode/json?address=${cep}&key=AIzaSyBY6-aoDfJd3xqkiZiMonZWHEkYJ3xaXh4`
       );
+
       setAddress(dados.data);
+
       setLatLong(mapRequest.data.results[0].geometry.location);
+
+      toast('Endereço encontrado', {
+        position: 'bottom-right',
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
     }
   };
 
@@ -43,6 +63,8 @@ function Home() {
       {address ? (
         <Maps {...address} {...lat_long} method={resetInputFind} />
       ) : null}
+
+      <ToastContainer />
     </Container>
   );
 }

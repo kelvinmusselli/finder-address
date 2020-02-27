@@ -5,7 +5,13 @@ import { Container, DivSearched, AddressRequested, DivMap } from './styles';
 function Maps(props) {
   const style = {
     width: '100%',
-    height: '100%',
+    minWidth: '200px',
+    height: '500px',
+    display: 'flex',
+    justifyContent: 'center',
+    alignContent: 'center',
+    marginLeft: '10px',
+    marginRight: '10px',
   };
 
   return (
@@ -20,7 +26,7 @@ function Maps(props) {
         <Map
           google={props.google}
           style={style}
-          zoom={16}
+          zoom={15}
           initialCenter={{ lat: props.lat, lng: props.lng }}
           center={{ lat: props.lat, lng: props.lng }}
         >

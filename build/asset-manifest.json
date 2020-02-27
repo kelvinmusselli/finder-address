@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/static/js/main.1fb162d1.chunk.js",
+    "main.js.map": "/static/js/main.1fb162d1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e29ce4f5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e29ce4f5.js.map",
+    "static/css/2.5dbdccff.chunk.css": "/static/css/2.5dbdccff.chunk.css",
+    "static/js/2.ad2c210b.chunk.js": "/static/js/2.ad2c210b.chunk.js",
+    "static/js/2.ad2c210b.chunk.js.map": "/static/js/2.ad2c210b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bb64e22f8144468bfb0c027b31799588.js": "/precache-manifest.bb64e22f8144468bfb0c027b31799588.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.5dbdccff.chunk.css.map": "/static/css/2.5dbdccff.chunk.css.map",
+    "static/js/2.ad2c210b.chunk.js.LICENSE.txt": "/static/js/2.ad2c210b.chunk.js.LICENSE.txt",
+    "static/media/magalu.jpg": "/static/media/magalu.d8387be3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e29ce4f5.js",
+    "static/css/2.5dbdccff.chunk.css",
+    "static/js/2.ad2c210b.chunk.js",
+    "static/js/main.1fb162d1.chunk.js"
+  ]
+}

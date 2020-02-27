@@ -13,9 +13,10 @@ export const DivSearched = styled.div`
   flex-direction: column;
   margin-top: 10px;
   margin-left: 10px;
+  margin-right: 10px;
   background: #f7f7f7;
   max-width: 100%;
-  width: 355px;
+  border-radius: 4px;
   padding: 5px;
 `;
 
@@ -24,11 +25,5 @@ export const AddressRequested = styled.text`
 `;
 
 export const DivMap = styled.div`
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  height: 400px;
-  width: 600px;
-  padding: 5px;
+  margin-top: 20px;
 `;

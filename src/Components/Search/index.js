@@ -7,7 +7,6 @@ import {
   DivAddres,
   LabelAddress,
   DivToSearch,
-  // InputSearch,
   ButtonSearch,
 } from './styles';
 
@@ -24,7 +23,7 @@ function Search({ value, method, onclick }) {
             mask={[/\d/, /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/]}
           />
           <ButtonSearch onClick={onclick}>
-            <FaSearch />
+            <FaSearch color={'#fff'} />
           </ButtonSearch>
         </DivToSearch>
       </DivAddres>
