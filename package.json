@@ -22,7 +22,7 @@
     "react-map-gl": "^5.2.3",
     "react-native-gesture-handler": "^1.6.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.1",
     "react-text-mask": "^5.4.3",
     "react-toastify": "^5.5.0",
     "styled-components": "^5.0.1"
